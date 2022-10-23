@@ -60,15 +60,15 @@ function showTeamInfo(id){
                                     <b>
                                         <p>${resJson.name}</p>
                                     </b>
-                                    <p>Nama lengkap tim : ${resJson.name}</p>
+                                    <p>Nama Tim : ${resJson.name}</p>
                                     <p>Singkatan : ${resJson.tla}</p>
-                                    <p>Berdiri tahun : ${resJson.founded}</p> 
-                                    <p>Markas utama : ${resJson.venue}.</p>
-                                    <p>Warna khas : ${resJson.clubColors}</p>
+                                    <p>Warna Klub : ${resJson.clubColors}</p>
+                                    <p>Berdiri Sejak tahun : ${resJson.founded}</p> 
+                                    <p>Stadion : ${resJson.venue}.</p>
                                     <p>Alamat : ${resJson.address}</p>
-                                    <p>Website : ${resJson.website}</p>
-                                    <p>Phone : ${resJson.phone}</font> 
+                                    <p>Web : ${resJson.website}</p>
                                     <p>Email : ${resJson.email}</font>
+                                    <p>Phone : ${resJson.phone}</font> 
                                 </div>
                             </div>
                         </div>
